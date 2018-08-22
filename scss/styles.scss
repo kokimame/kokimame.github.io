@@ -351,10 +351,11 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/hokusai.jpg);
+    background: url(../images/hokusai-25p.jpg);
     background-size: cover;
     padding: 15px;
     overflow: hidden;
+    display: block;
 }
 
 #lead-content {
@@ -364,6 +365,7 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    align-content: center;
 
     h1, h2 {
         margin: 0;
@@ -381,9 +383,20 @@ footer {
     h2 {
         color: lighten($base-color, 25%);
         font-weight: 500;
-        font-size: 2.25em;
+        font-size: 2.20em;
         margin-bottom: 15px;
     }
+
+    h3 {
+        color: #fff;
+        font-weight: 500;
+        font-size: 1.10em;
+        margin-bottom: 2px;
+    }
+}
+
+#lead-social {
+
 }
 
 #lead-overlay {
