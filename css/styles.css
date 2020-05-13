@@ -11,6 +11,13 @@
     Gulp and send to the /css folder which is then loaded on the page.
 */
 
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 body {
     font-family: 'Lato', sans-serif;
     font-size: 16px
@@ -564,7 +571,9 @@ footer {
 }
 
 .project-image {
-    float: left
+    float: left;
+    width: 300px;
+    height: 300px;
 }
 
 .project-info {
