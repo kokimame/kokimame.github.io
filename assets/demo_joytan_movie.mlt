@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mlt LC_NUMERIC="C" version="6.21.0" title="Shotcut version 20.04.12" producer="main_bin">
+  <profile description="automatic" width="854" height="480" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="854" display_aspect_den="480" frame_rate_num="3782400" frame_rate_den="252217" colorspace="601"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:00:25.806">
+    <property name="length">00:00:25.873</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:00:25.806"/>
+  </playlist>
+  <producer id="producer0" in="00:00:00.000" out="03:59:60.014">
+    <property name="length">03:60:00.067</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/kokimame/Joytan/fr_0502_aqa_v0/background.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-05-08T06:56:33</property>
+    <property name="shotcut:caption">background.png</property>
+    <property name="shotcut:detail">/home/kokimame/Joytan/fr_0502_aqa_v0/background.png</property>
+    <property name="shotcut:hash">c973c251671cd288af5039a3b6db41bc</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer0" in="00:00:00.000" out="00:00:25.806"/>
+  </playlist>
+  <producer id="producer1" in="00:00:00.000" out="03:59:60.014">
+    <property name="length">03:60:00.067</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/kokimame/Dropbox/Python/manim/assets/transparents/black/140.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2019-07-29T06:00:42</property>
+    <property name="shotcut:caption">140.png</property>
+    <property name="shotcut:detail">/home/kokimame/Dropbox/Python/manim/assets/transparents/black/140.png</property>
+    <property name="shotcut:hash">2b1fdd4675db74214b4797216ca89307</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V2</property>
+    <entry producer="producer1" in="00:00:00.000" out="00:00:25.806"/>
+  </playlist>
+  <producer id="producer2" in="00:00:00.000" out="00:31:05.401">
+    <property name="length">00:31:05.468</property>
+    <property name="eof">pause</property>
+    <property name="resource">/media/kokimame/Work_A_1TB/Video.mov</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-05-07T22:53:56</property>
+    <property name="shotcut:hash">51558d5ed2e2a4f95e9eb7c62895c370</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Video.mov</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter0" in="00:00:09.469" out="00:00:16.404">
+      <property name="start">1</property>
+      <property name="level">00:00:06.001=1;00:00:06.935=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer3" in="00:00:00.000" out="00:31:05.401">
+    <property name="length">00:31:05.468</property>
+    <property name="eof">pause</property>
+    <property name="resource">/media/kokimame/Work_A_1TB/Video.mov</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-05-07T22:53:56</property>
+    <property name="shotcut:hash">51558d5ed2e2a4f95e9eb7c62895c370</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Video.mov</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter1" in="00:01:15.604" out="00:01:19.004">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.934=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer4" in="00:00:00.000" out="00:31:05.401">
+    <property name="length">00:31:05.468</property>
+    <property name="eof">pause</property>
+    <property name="resource">/media/kokimame/Work_A_1TB/Video.mov</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-05-07T22:53:56</property>
+    <property name="shotcut:hash">51558d5ed2e2a4f95e9eb7c62895c370</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Video.mov</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer5" in="00:00:00.000" out="00:31:05.401">
+    <property name="length">00:31:05.468</property>
+    <property name="eof">pause</property>
+    <property name="resource">/media/kokimame/Work_A_1TB/Video.mov</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-05-07T22:53:56</property>
+    <property name="shotcut:hash">51558d5ed2e2a4f95e9eb7c62895c370</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Video.mov</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer6" in="00:00:00.000" out="00:31:05.401">
+    <property name="length">00:31:05.468</property>
+    <property name="eof">pause</property>
+    <property name="resource">/media/kokimame/Work_A_1TB/Video.mov</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-05-07T22:53:56</property>
+    <property name="shotcut:hash">51558d5ed2e2a4f95e9eb7c62895c370</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Video.mov</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer7" in="00:00:00.000" out="00:31:05.401">
+    <property name="length">00:31:05.468</property>
+    <property name="eof">pause</property>
+    <property name="resource">/media/kokimame/Work_A_1TB/Video.mov</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-05-07T22:53:56</property>
+    <property name="shotcut:hash">51558d5ed2e2a4f95e9eb7c62895c370</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Video.mov</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer8" in="00:00:00.000" out="00:31:05.401">
+    <property name="length">00:31:05.468</property>
+    <property name="eof">pause</property>
+    <property name="resource">/media/kokimame/Work_A_1TB/Video.mov</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-05-07T22:53:56</property>
+    <property name="shotcut:hash">51558d5ed2e2a4f95e9eb7c62895c370</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Video.mov</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter2" in="00:01:43.943" out="00:01:47.344">
+      <property name="start">1</property>
+      <property name="level">00:00:02.467=1;00:00:03.401=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <playlist id="playlist2">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V3</property>
+    <entry producer="producer2" in="00:00:09.469" out="00:00:16.337"/>
+    <entry producer="producer3" in="00:01:15.670" out="00:01:19.004"/>
+    <entry producer="producer4" in="00:01:22.205" out="00:01:24.539"/>
+    <entry producer="producer5" in="00:01:28.807" out="00:01:32.474"/>
+    <entry producer="producer6" in="00:01:34.274" out="00:01:36.542"/>
+    <entry producer="producer7" in="00:01:38.342" out="00:01:41.876"/>
+    <entry producer="producer8" in="00:01:43.943" out="00:01:47.344"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 20.04.12" global_feed="1" in="00:00:00.000" out="00:00:25.806">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <property name="shotcut:scaleFactor">3.66226</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1"/>
+    <track producer="playlist2"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition3">
+      <property name="a_track">1</property>
+      <property name="b_track">2</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">0</property>
+    </transition>
+    <transition id="transition4">
+      <property name="a_track">0</property>
+      <property name="b_track">3</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition5">
+      <property name="a_track">1</property>
+      <property name="b_track">3</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">0</property>
+    </transition>
+  </tractor>
+</mlt>
