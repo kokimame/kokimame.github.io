@@ -664,6 +664,25 @@ footer {
     height: 300px;
 }
 
+.floating-btn {
+    position: relative;
+    display: inline-block;
+    font-size: 100%;
+    font-weight: bold;
+    color: #4d4d4d;
+    background-color: #d8d8d8;
+    padding: 2px 6px;
+    margin-top: 5px;
+    margin-left: 8px;
+    border-radius: 10%/50%;
+    -moz-border-radius: 10%/50%;
+    -webkit-border-radius: 10%/50%;
+    -webkit-box-shadow: 0 3px 3px #ccc;
+    -moz-box-shadow: 0 3px 3px #ccc;
+    box-shadow: 0 3px 3px #ccc;
+    white-space: nowrap;
+}
+
 #projects {
     padding: 50px 15px;
     border-bottom: 1px solid $border;
