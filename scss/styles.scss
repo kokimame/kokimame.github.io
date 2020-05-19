@@ -694,6 +694,15 @@ footer {
     }
 }
 
+.project-date {
+    position: absolute;
+    font-size: small;
+    right: 0px;
+    bottom: 0px;
+    padding: 0px 3px;
+    background-color: rgba($color: #ffffff, $alpha: 0.5);
+}
+
 .project {
     position: relative;
     max-width: 900px;
