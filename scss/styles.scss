@@ -401,11 +401,20 @@ footer {
         margin-bottom: 15px;
     }
 
-    h3 {
+    .lang-selector {
         color: #fff;
-        font-weight: 500;
-        font-size: 1.10em;
-        margin-bottom: 2px;
+        .lang-title {
+            color: #fff;
+            font-weight: 500;
+            font-size: 1em;
+            margin-top: 5px;
+        }
+        a {
+            color: white;
+            border: 0;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
     }
 }
 
