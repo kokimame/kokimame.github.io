@@ -11,6 +11,7 @@
 */
 
 (function($) {
+    $("#skill-list").load("skills.html"); 
 
     // Remove no-js class
     $('html').removeClass('no-js');
